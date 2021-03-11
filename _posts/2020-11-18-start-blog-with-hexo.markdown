@@ -3,7 +3,7 @@ layout: post
 title: Start blog with Hexo
 description: Short 'How to' regarding running on own blog with Hexo on Github pages.
 img: hexo.png 
-fig-caption: Hexo blog
+fig-caption: chri100pher.github.io
 tags: [github, pages, blog, hexo]
 categories: common
 ---
