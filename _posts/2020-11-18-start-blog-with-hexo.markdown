@@ -2,7 +2,7 @@
 layout: post
 title: Start blog with Hexo
 description: Short 'How to' regarding running on own blog with Hexo on Github pages.
-img: https://i.imgur.com/pZRwOa5.png 
+img: hexo.png 
 fig-caption: Hexo blog
 tags: [github, pages, blog, hexo]
 categories: common
