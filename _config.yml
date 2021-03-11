@@ -8,7 +8,7 @@ site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
 author: Chri100pher
-author-img: img/avatar.png # add your photo
+author-img: avatar.png # add your photo
 about-author: I am a cloud engineer and i'm always happy to learn something new.
 social-twitter: _Chri100pher_ # add your Twitter handle
 social-facebook: # add your Facebook handle
