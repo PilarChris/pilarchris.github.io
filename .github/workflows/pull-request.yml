@@ -1,14 +1,16 @@
+name: Pull Request on Branch Push
 on:
   push:
-    branches:
-    - dev
+    branches-ignore:
 
 jobs:
-  pull-request:
+  auto-pull-request:
+    name: PullRequestAction
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: GitHub Pull Request Action
-      uses: repo-sync/pull-request@v2.6
-      with:
-        destination_branch: "master"
+      - name: Pull Request Action
+        uses: vsoch/pull-request-action@1.0.12
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH_PREFIX: "dev"
+          PULL_REQUEST_BRANCH: "master"
