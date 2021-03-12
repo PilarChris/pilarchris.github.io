@@ -2,8 +2,13 @@
 layout: post
 title: Start blog with Hexo
 description: Short 'How to' regarding running on own blog with Hexo on Github pages.
+<<<<<<< HEAD
 img: hexo.png #side note best fitting size is probably 1280x850
 fig-caption: Hexo blog
+=======
+img: hexo.png 
+fig-caption: chri100pher.github.io
+>>>>>>> master
 tags: [github, pages, blog, hexo]
 comments: true
 categories: common
