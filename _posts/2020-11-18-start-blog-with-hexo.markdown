@@ -5,6 +5,7 @@ description: Short 'How to' regarding running on own blog with Hexo on Github pa
 img: hexo.png 
 fig-caption: Hexo blog
 tags: [github, pages, blog, hexo]
+comments: true
 categories: common
 ---
 
