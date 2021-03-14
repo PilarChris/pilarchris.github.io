@@ -1,0 +1,18 @@
+name: Pull Request on Branch Push
+on:
+  push:
+    branches:
+    - dev
+
+jobs:
+  auto-pull-request:
+    name: PullRequestAction
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pull Request Action
+        uses: vsoch/pull-request-action@1.0.12
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PULL_REQUEST_UPDATE: true
+          PULL_REQUEST_FROM_BRANCH: "dev"
+          PULL_REQUEST_BRANCH: "master"
