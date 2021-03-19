@@ -185,7 +185,7 @@ Host inventory
 ```
 Get-VMHost | Get-View | select @{N="Name";E={$_.Name}}, @{N="Vendor / Model";E={%{"$($_.Hardware.SystemInfo.Vendor) / $($_.Hardware.SystemInfo.Model)"}}}, @{N="Version";E={%{"$($_.Config.Product.Version) build $($_.Config.Product.Build)"}}}, @{N="µCPU / Cores";E={%{"$($_.Hardware.CpuInfo.NumCpuPackages) / $($_.Hardware.CpuInfo.NumCpuCores)"}}}OrGet-VMHost | Get-View | select @{N="Name";E={$_.Name}}, @{N="Vendor / Model";E={%{"$($_.Hardware.SystemInfo.Vendor) / $($_.Hardware.SystemInfo.Model)"}}}, @{N="SerialNumber";E={(Get-EsxCli -VMHost $_.Name).hardware.platform.get().SerialNumber}}, @{N="ESXi-Version";E={%{"$($_.Config.Product.Version) build $($_.Config.Product.Build)"}}}, @{N="µCPU / Cores";E={%{"$($_.Hardware.CpuInfo.NumCpuPackages) / $($_.Hardware.CpuInfo.NumCpuCores)"}}}, @{N="MemorySizeGB";E={($_.Hardware.MemorySize) / 1GB}} | ft -auto
 ```
-
+<!--closing brackets the way jekyll wants to avoid build errors %} %} %} %}-->
 
 Search VM on Datastore
 ```
