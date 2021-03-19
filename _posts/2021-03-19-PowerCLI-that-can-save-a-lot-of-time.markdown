@@ -1,3 +1,14 @@
+---
+layout: post
+title: PowerCLI that can save you a lot of time
+description: List of PowerCLI one-liners that could be helpful to speedup work.
+img: powercli.png #side note best fitting size is probably 1280x850
+fig-caption: PowerCLI
+tags: [vmware, powercli, cmd, scripting, automation]
+comments: true
+categories: VMware
+---
+
 # PowerCLI one-liners
 Here are some on-liners which back in the days when i was working with VMware i always had in my pocket as they help to save a lot of time by finding something or automate some process.
 
