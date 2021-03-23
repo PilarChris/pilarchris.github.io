@@ -15,8 +15,14 @@ As Cloud Engineer I am working with Python and from time to time scripts/apps ca
 This couldnt be easier:
 ```pip install virtualenv```
 
-# Creating virtualenv and usage
-Now we need directory for our virtualenvs, it can be anywhere but i prefer to have one dir with all my virtual environments so in my example:
-`mkdir venvs`
-`cd venvs`
+# Creating virtualenv
+Now we need directory for our virtualenvs, it can be anywhere but i prefer to have one dir with all my virtual environments so in my example:  
+`mkdir venvs`  
+`cd venvs`   
+Next create environment  
+`virtualenv NAME_OF_ENVIRONMENT`
+
+# Usage
+now everything we need is just to activate our virtual environment
+`source NAME_OF_ENVIRONMENT/bin/activate`
 
