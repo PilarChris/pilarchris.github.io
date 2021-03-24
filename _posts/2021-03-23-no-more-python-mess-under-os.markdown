@@ -23,6 +23,20 @@ Next create environment
 `virtualenv NAME_OF_ENVIRONMENT`
 
 # Usage
-now everything we need is just to activate our virtual environment
-`source NAME_OF_ENVIRONMENT/bin/activate`
+now everything we need is just to activate our virtual environment by
+`source NAME_OF_ENVIRONMENT/bin/activate`  
+i would also recommend to add it as alias in your .zshrc for example:
+`alias py3="source ~/venvs/Python3/bin/activate"`
+so next time you activate it just by calling `py3` for example.     
+If you activated virtualenv you should see in your terminal prompt name of that venv and that mean you are good to go!   
+Now any package installed with pip (`pip install PACKAGE_NAME`) is hold in that virtual environment 
+without messing anything directly on you OS.
+
+Last thing that will be needed is deactivating your virtualenv which couldn't be simpler:  
+`deactivate` - after writing this in terminal you will exit from virtual environment.
+
+That's basically all, i hope this short "how to" was useful and make your work easier.  
+See you next time!
+
+
 
