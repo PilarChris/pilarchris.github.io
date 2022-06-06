@@ -30,6 +30,8 @@ plugins:
   - jemoji
   - jekyll-remote-theme
 
+remote_theme: sharadcodes/jekyll-theme-serial-programmer
+
 paginate: 8
 paginate_path: "/page/:num"
 
